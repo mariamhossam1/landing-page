@@ -1,0 +1,25 @@
+# Landing Page Project
+
+## Table of Contents
+
+* [Project Description](#project-description)
+* [Usage](#usage)
+
+## Project Description
+
+This is the first project in the Professional Front End Web Development track, and the project consists of a multi-section landing page with a dynamically constructed navigation bar, so that we can dynamically add content to the page. When a section comes into the viewport, it is highlighted to differentiate it from other sections. Furthermore, clicking on any of the section navigation buttons will automatically scroll the page down to the desired section.
+
+[Back to Top](#table-of-contents)
+
+## Usage
+
+On page load, the navigation bar will be visible. To navigate through the page, you can either scroll normally or click on the navigation bar buttons to scroll smoothly through the sections.
+
+When a section comes into the viewport, it is assigned to an active state to differentiate between it and the other sections on the page.
+
+At the bottom of the page, there is a 'Back to Top' button, that is only displayed once you reach the bottom of the page. Clicking it will automatically scroll to the top of the page.
+
+At the end of the app.js file, there are two pieces of code which are commented: The first one is the implementation hiding the navigation bar if the user isn't scrolling. To see the implementation, uncomment the code.
+The second one is the implementation of the collapsible sections. To activate the implementation, uncomment the piece of code implementing it in the app.js file, and uncomment the code at the end of the styles.css file.
+
+[Back to Top](#table-of-contents)
